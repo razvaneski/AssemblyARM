@@ -1,5 +1,8 @@
 # AssemblyARM
-Docker based tool for running Assembly x86 on ARM machines.
+
+Debian-based tool for running Assembly x86 on ARM machines, using Docker.
+
+Created for Macs using Apple Silicon. May or may not work on other ARM devices.
 
 # How do I install it?
 
