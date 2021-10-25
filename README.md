@@ -6,9 +6,12 @@ Created for Macs using Apple Silicon. May or may not work on other ARM devices.
 
 # How do I install it?
 
-Download Docker Desktop and go to this [link](https://hub.docker.com/r/razvaneski/assemblyarm) on Docker Hub. It's that easy!
+Download Docker Desktop and run this command:
 
-Or, if you're already familiar with Docker, use this command:
 `docker pull razvaneski/assemblyarm`
 
-Of course, you can also download this Dockerfile and build it yourself.
+Or, download this Dockerfile and build the image yourself.
+
+# Known issues
+
+GDB is not supported. This is due to the fact that the `ptrace` function is not implemented. If your workflow relies on using GDB, you're out of luck.
