@@ -8,3 +8,7 @@ RUN ["apt-get", "-qy", "install", "vim"]
 RUN ["apt-get", "-qy", "install", "gdb"]
 RUN ["apt-get", "-qy", "install", "gcc"]
 RUN ["apt-get", "-qy", "install", "git"]
+
+RUN ["git", "clone", "https://github.com/razvaneski/AssemblySF"]
+RUN ["cd", "AssemblySF"]
+RUN ["mv", "-f", "/usr/share/nano"]
