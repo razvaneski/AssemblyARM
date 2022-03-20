@@ -1,6 +1,6 @@
 # AssemblyARM
 
-Debian-based tool for running Assembly x86 on ARM machines, using Docker.
+Debian-based tool for running Assembly x86 on ARM machines, using Docker. It's a simple Dockerfile that installs Vim, Nano, Git and other stuff for you to work with.
 
 Created for Macs using Apple Silicon. May or may not work on other ARM devices.
 
@@ -14,4 +14,4 @@ Or, download this Dockerfile and build the image yourself.
 
 # Known issues
 
-GDB is not supported. This is due to the fact that the `ptrace` function is not implemented. If your workflow relies on using GDB, you're out of luck.
+GDB/G++/CMake NOT supported. This is due to the fact that the `ptrace` function is not implemented.
