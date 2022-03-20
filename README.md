@@ -1,6 +1,6 @@
 # AssemblyARM
 
-Debian-based tool for running Assembly x86 on ARM machines, using Docker. It's a simple Dockerfile that installs Vim, Nano, Git and other stuff for you to work with.
+Debian-based tool for running Assembly x86 on ARM machines, using Docker. It's a simple Dockerfile that creates a Linux 64 bit instance, installs Vim, Nano, Git and other stuff for you to work with. Also includes a neat Nano code-formatter for Assembly x86 (AT&T) from my other repo, AssemblySF.
 
 Created for Macs using Apple Silicon. May or may not work on other ARM devices.
 
